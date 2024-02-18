@@ -1,4 +1,4 @@
-# Node Todo App with CI/CD [![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fajitfawade%2Fnode-todo-cicd&countColor=%232ccce4&style=plastic&labelStyle=upper)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fajitfawade%2Fnode-todo-cicd)
+# Node Todo App with CI/CD 
 
 This is a simple to-do app that uses Node.js, Express, and EJS. It also uses Jenkins and Docker Compose for continuous integration and deployment.
 
@@ -17,7 +17,7 @@ To run this app, you need to have:
 To clone the repository, open a terminal or command prompt and run the following command:
 
 ```bash
-git clone https://github.com/ajitfawade/node-todo-cicd.git
+git clone https://github.com/devopscloudlabs/node-todo-cicd.git
 ```
 
 This will create a folder named `node-todo-cicd` in your current directory.
@@ -47,7 +47,7 @@ Enter a name for your job (e.g., Node Todo App) and select **Freestyle project**
 
 On the configuration page, you can add some descriptions for your job if you want.
 
-Under **Source Code Management**, select **Git** and enter the repository URL: [https://github.com/ajitfawade/node-todo-cicd.git]. You can leave the other fields as default.
+Under **Source Code Management**, select **Git** and enter the repository URL: [https://github.com/devopscloudlabs/node-todo-cicd.git]. You can leave the other fields as default.
 
 Under **Build Triggers**, select **GitHub hook trigger for GITScm polling**. This will enable the job to be triggered by GitHub webhooks.
 
