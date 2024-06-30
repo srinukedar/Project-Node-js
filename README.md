@@ -17,7 +17,7 @@ To run this app, you need to have:
 To clone the repository, open a terminal or command prompt and run the following command:
 
 ```bash
-git clone https://github.com/devopscloudlabs/node-todo-cicd.git
+git clone https://github.com/srinukedar/Project-Node-js.git
 ```
 
 This will create a folder named `node-todo-cicd` in your current directory.
@@ -47,7 +47,7 @@ Enter a name for your job (e.g., Node Todo App) and select **Freestyle project**
 
 On the configuration page, you can add some descriptions for your job if you want.
 
-Under **Source Code Management**, select **Git** and enter the repository URL: [https://github.com/devopscloudlabs/node-todo-cicd.git]. You can leave the other fields as default.
+Under **Source Code Management**, select **Git** and enter the repository URL: [https://github.com/srinukedar/Project-Node-js.git]. You can leave the other fields as default.
 
 Under **Build Triggers**, select **GitHub hook trigger for GITScm polling**. This will enable the job to be triggered by GitHub webhooks.
 
