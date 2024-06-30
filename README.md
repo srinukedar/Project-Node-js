@@ -20,7 +20,7 @@ To clone the repository, open a terminal or command prompt and run the following
 git clone https://github.com/srinukedar/Project-Node-js.git
 ```
 
-This will create a folder named `node-todo-cicd` in your current directory.
+This will create a folder named `Project-nodejs-cicd` in your current directory.
 
 ### Step 2: Add a Webhook
 
